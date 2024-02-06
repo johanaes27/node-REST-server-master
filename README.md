@@ -7,6 +7,7 @@
 
 1. Clonar el .env.template y crear el .env
 2. Ejecutar el comando ```docker compose up -d```
+3. Ejecutar el comando yarn run dev para iniciar el servidor
 
 Endpoint: /api/questions
 Método HTTP: GET
@@ -50,4 +51,3 @@ body:
         "answer": "Av Siempre viva"
     }
 ]
-3. Ejecutar el comando yarn run dev para iniciar el servidor
