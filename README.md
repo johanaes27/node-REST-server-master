@@ -50,3 +50,4 @@ body:
         "answer": "Av Siempre viva"
     }
 ]
+3. Ejecutar el cormando yarn run dev para iniciar el servidor
