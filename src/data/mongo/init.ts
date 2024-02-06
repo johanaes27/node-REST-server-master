@@ -13,7 +13,7 @@ export class MongoDatabase {
 
         try {
 
-            await mongoose.connect(mongoUrl, { dbName });
+            await mongoose.connect(process.env.DB_CNN as string, { dbName });
             console.log('mongo connected')
             
         } catch (error) {
